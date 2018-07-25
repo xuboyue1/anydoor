@@ -5,7 +5,7 @@ Tiny NodeJS Static Web server
 ## 安装
 
 ```
-npm i -g anydoor
+npm i -g yz-anydoor
 ```
 
 ## 使用方法

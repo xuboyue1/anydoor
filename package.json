@@ -1,10 +1,10 @@
 {
-    "name": "anydoor",
-    "version": "0.1.0",
+    "name": "yz-anydoor",
+    "version": "0.1.1",
     "description": "tiny nodejs web server",
     "main": "src/app.js",
     "bin": {
-        "anydoor": "bin/anydoor"
+        "yz-anydoor": "bin/yz-anydoor"
     },
     "scripts": {
         "lint": "eslint .",
@@ -16,7 +16,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/zhmxby/anydoor.git"
+        "url": "https://github.com/zhmxby/anydoor.git"
     },
     "keywords": [
         "static",
