@@ -1,0 +1,42 @@
+{
+    "name": "anydoor",
+    "version": "0.1.0",
+    "description": "tiny nodejs web server",
+    "main": "src/app.js",
+    "bin": {
+        "anydoor": "bin/anydoor"
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "fix": "eslint --fix ."
+    },
+    "pre-commit": [
+        "fix",
+        "lint"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zhmxby/anydoor.git"
+    },
+    "keywords": [
+        "static",
+        "webserver"
+    ],
+    "author": "zhmxby",
+    "email": "zhmxby@qq.com",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/zhmxby/anydoor/issues"
+    },
+    "homepage": "https://github.com/zhmxby/anydoor#readme",
+    "devDependencies": {
+        "babel-eslint": "^7.2.3",
+        "chalk": "^2.4.1",
+        "eslint": "^4.5.0",
+        "pre-commit": "^1.2.2"
+    },
+    "dependencies": {
+        "handlebars": "^4.0.10",
+        "yargs": "^8.0.2"
+    }
+}
